@@ -1,0 +1,1 @@
+export function SceneHint(){return <div className="scene-hint"><span className="drag-icon">↔</span> Drag to explore <span className="hint-dot">·</span> Select a project</div>}

@@ -1,0 +1,1 @@
+export type VeeProps={modelUrl?:string;rotation:[number,number,number];lookAtTarget:[number,number,number];speaking:boolean;emotionalState:'neutral'|'attentive';interactionEnabled:boolean;qualityLevel:'low'|'medium'|'high'};

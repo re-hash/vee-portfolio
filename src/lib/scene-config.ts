@@ -1,0 +1,1 @@
+export const sceneConfig={quality:{low:14000,medium:30000,high:54000},dpr:[1,1.65] as [number,number],backgroundCount:130};
