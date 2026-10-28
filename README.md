@@ -75,3 +75,7 @@ KasperskyOS cover: https://re-hash.github.io/Mypage/assets/hero.png (user's supp
 The image reference was not attached to this task. The procedural face follows the written direction and does not claim exact reference matching. Facial anatomy and female likeness need visual review and replacement with a licensed/custom GLB for Phase 2. No blinking, lip-sync, voice, AI chat or backend is implemented.
 
 Fallback: Canvas support is probed before loading the dynamic scene; unsupported contexts and React scene loading failures show a static decorative portrait area and direct users to the independent HTML project list. No claim of device FPS; real laptop/mobile profiling remains required. Browser checks, build results and known limitations are reported separately in the delivery message.
+
+## GitHub Pages
+
+The Pages workflow builds and publishes `out/` on pushes to `main`. Pages source must be GitHub Actions. `NEXT_PUBLIC_BASE_PATH` is set to `/vee-portfolio` during that build; leave it unset for local development or a root-domain Vercel deployment.
